@@ -62,13 +62,18 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-iconburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
       <!-- Унікальний контент сторінки -->
 
-      <section class="section-content">
+      <section class="hidden section-content">
         <div class="container section-content-container">
           <h1 class="content-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button" data-modal-open>
@@ -78,7 +83,7 @@
       </section>
 
       <!--Особливості-->
-      <section class="section-peculiarities">
+      <section class="hidden section-peculiarities">
         <div class="container">
           <h2 class="peculiarities-title visually-hidden">Peculiarities</h2>
           <ul class="peculiarities-list">
@@ -137,7 +142,7 @@
 
       <!--Команда-->
 
-      <section class="section-team">
+      <section class="hidden section-team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <!--Список працівників-->
@@ -317,7 +322,7 @@
 
       <!--Portfolio-->
 
-      <section class="section-portfolio">
+      <section class="hidden section-portfolio">
         <div class="container porfolio-container">
           <h2 class="porfolio-title">Our Portfolio</h2>
           <!--Список фото-->
@@ -440,7 +445,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="hidden footer">
       <div class="container container-footer">
         <div class="footer-bloc">
           <a class="logo footer-logo" href="./index.html"
@@ -507,7 +512,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="hidden backdrop" data-modal>
       <div class="modal">
         <button class="modal-close-button" type="button" data-modal-close>
           <svg class="modal-close-icom" width="8" height="8">
