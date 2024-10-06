@@ -99,3 +99,16 @@ img {
             display: block;
             fill: #2f2f37;
         }
+    @media screen and (min-width:768px) {
+        .burger-btn {
+        display: none;
+        }
+            }
+        
+            
+                    
+                     
+                    
+                    
+
+             

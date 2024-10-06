@@ -43,10 +43,7 @@
         
         color: #2e2f42;
         } 
-.header-nav {
-        display: flex;
-        align-items: center;
-        }
+
     .nav-list {
         display: flex;
         flex-direction: row;
