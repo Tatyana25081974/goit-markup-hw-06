@@ -223,7 +223,7 @@
             <li class="team-item">
               <img
                 class="team-foto"
-                srcset="../images/retina/markguerreromobail2x.jpg 2x"
+                srcset="../images/retina/markguerreromobail@2x.jpg 2x"
                 src="../images/retina/markguerreromobail.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -266,7 +266,7 @@
             </li>
             <li class="team-item">
               <img
-                srcset="../images/retina/tommobail2x.jpg 2x"
+                srcset="../images/retina/tommobail@2x.jpg 2x"
                 src="../images/retina/tommobail.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -309,7 +309,7 @@
             </li>
             <li class="team-item">
               <img
-                srcset="../images/retina/camilamobail2x.jpg 2x"
+                srcset="../images/retina/camilamobail@2x.jpg 2x"
                 src="../images/retina/camilamobail.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -352,7 +352,7 @@
             </li>
             <li class="team-item">
               <img
-                srcset="../images/retina/danielmobail2x.jpg 2x"
+                srcset="../images/retina/danielmobail@2x.jpg 2x"
                 src="../images/retina/danielmobail.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -399,19 +399,42 @@
 
       <!--Portfolio-->
 
-      <section class="hidden section-portfolio">
+      <section class="section-portfolio">
         <div class="container porfolio-container">
           <h2 class="porfolio-title">Our Portfolio</h2>
           <!--Список фото-->
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-foto">
-                <img
-                  src="./images/banking.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/retina/bankingdisctop.jpg    1x,
+                      ../images/retina/bankingdisctop@2x.jpg 2x
+                    "
+                    media="(min-width:  1158px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/bankingtablet.jpg    1x,
+                      ../images/retina/bankingtablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/bankingmobail.jpg    1x,
+                      ../images/retina/bankingmobail@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/retina/bankingdisctop.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="foto-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -425,12 +448,35 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-foto">
-                <img
-                  src="./images/cashlesspayment.jpg"
-                  alt="Cashless Payment"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/retina/cashlessdisctop.jpg    1x,
+                      ../images/retina/cashlessdisctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/cashlesstablet.jpg    1x,
+                      ../images/retina/cashlesstablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/cashlessmobail.jpg    1x,
+                      ../images/retina/cashlessmobail@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/retina/cashlessdisctop.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="foto-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -444,12 +490,35 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-foto">
-                <img
-                  src="./images/meditation.jpg"
-                  alt="Meditation App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/retina/mediationdisctop.jpg    1x,
+                      ../images/retina/mediationdisctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/meditationtablet.jpg    1x,
+                      ../images/retina/meditationtablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/meditationmobail.jpg    1x,
+                      ../images/retina/meditationmobail@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/retina/mediationdisctop.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="foto-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -463,12 +532,35 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-foto">
-                <img
-                  src="./images/taxi.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/retina/taxidisctop.jpg    1x,
+                      ../images/retina/taxidisctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/taxitablet.jpg    1x,
+                      ../images/retina/taxitablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/taximobail.jpg    1x,
+                      ../images/retina/taximobail@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/retina/taxidisctop.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="foto-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -482,12 +574,35 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-foto">
-                <img
-                  src="./images/illustrations.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/retina/screendisctop.jpg    1x,
+                      ../images/retina/screendisctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/screentablet.jpg    1x,
+                      ../images/retina/screentablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/screenmobail.jpg    1x,
+                      ../images/retina/screenmobail@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/retina/screendisctop.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="foto-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -501,12 +616,35 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-foto">
-                <img
-                  src="./images/onlinecourses.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/retina/onlaindisctop.jpg    1x,
+                      ../images/retina/onlaindisctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/onlaintablet.jpg    1x,
+                      ../images/retina/onlaintablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ../images/retina/onlainmobail.jpg    1x,
+                      ../images/retina/onlainmobail@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/retina/onlaindisctop.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="foto-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App

@@ -328,7 +328,7 @@ img {
             .section-content {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                         rgba(46, 47, 66, 0.7)),
-                    url("../images/retina/ofismobail2x.jpg");
+                    url("../images/retina/ofismobail@2x.jpg");
             }
         }
          .content-title {
@@ -600,6 +600,111 @@ img {
 }
 /*====================================/Команда/=========================================*/
 /*====================================Portfolio=========================================*/
+.section-portfolio {
+    padding: 96px 0;
+}
+.porfolio-title {
+margin-bottom: 72px;
+margin-left: auto;
+margin-right: auto;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     gap: 48px;
+}
+.portfolio-item {
+    background-color: #ffffff;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.portfolio-foto {
+    position: relative;
+    overflow: hidden;
+}
+.foto-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-item:hover .foto-text {
+    transform: translateY(0%);
+}
+.application-name {
+
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+.portfolio-subtitle {
+margin-bottom: 8px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-transform: capitalize;
+}
+.portfolio-text {
+line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+@media screen and (min-width: 768px) {
+    .portfolio-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+    .portfolio-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .portfolio-list {
+        gap: 48px 24px;
+    }
+
+    .portfolio-item {
+        flex-basis: calc((100% - 48px) / 3);
+        box-shadow: none;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .portfolio-item:hover {
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+            0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    }
+}
+/*====================================/Portfolio/=========================================*/
+/*====================================footer=========================================*/
+
+
+
+
+
 
 
 
