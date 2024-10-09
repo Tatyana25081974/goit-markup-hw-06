@@ -506,9 +506,17 @@ img {
 /*====================================Команда=========================================*/
 .section-team {
     background-color: #f4f4fd;
-    padding: 96px 0;
+    padding: 96px 28px;
+    width: auto;
+    text-align: center;
+}
+.container {
+    max-width: 264px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .team-title {
+    min-width: 162px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -517,8 +525,7 @@ img {
     color: #2e2f42;
     margin-bottom: 72px;
    text-transform: capitalize;
-   margin-left: auto;
-    margin-right: auto;
+   
 }
 .team-list {
     display: flex;
@@ -584,6 +591,9 @@ img {
     fill: #f4f4fd;
 }
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
     .team-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -591,11 +601,20 @@ img {
     row-gap: 64px;
     }
 }
+.team-item {
+     width: calc((100%-24px)/2);
+}
 
 @media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
     .team-list {
         flex-wrap: nowrap;
     gap: 24px;
+    }
+    .team-item {
+        width: calc((100%-72px)/4);
     }
 }
 /*====================================/Команда/=========================================*/
