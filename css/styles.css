@@ -418,8 +418,10 @@ img {
  /*=================================Унікальний контент сторінки========================*/
 /*==================================Особливості=========================================*/
 .section-peculiarities {
-    padding: 96px 0;
-}
+   padding: 96px 0;
+    
+    }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -605,9 +607,7 @@ img {
     column-gap: 24px;
     row-gap: 64px;
     }
-    .information {
-          padding: 108px 0;
-            }
+    
     
 }
 @media screen and (min-width: 1158px) {
@@ -619,7 +619,7 @@ img {
         max-width: 1158px;
         padding: 0 15px;
             }
-    }
+    
     .team-list {
         gap: 24px;
     }
@@ -628,6 +628,10 @@ img {
 /*====================================Portfolio=========================================*/
 .section-portfolio {
     padding: 96px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 .porfolio-title {
 margin-bottom: 72px;
