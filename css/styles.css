@@ -610,7 +610,10 @@ img {
     column-gap: 24px;
     row-gap: 64px;
     }
-    
+   .team-item {
+     width: calc((100% - 24px)/2);
+
+   }
     
 }
 @media screen and (min-width: 1158px) {
@@ -625,6 +628,9 @@ img {
     
     .team-list {
         gap: 24px;
+    }
+    .team-item {
+        width: calc((100% - 72px)/4);
     }
     }
 /*====================================/Команда/=========================================*/
