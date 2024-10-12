@@ -189,7 +189,6 @@ img {
            display: none;
        }
     }
-   
     .mobile-menu {
         position: fixed;
         top: 0;
@@ -272,7 +271,7 @@ img {
             display: flex;
             flex-direction: column;
             gap: 24px;
-           margin-bottom: 48px;
+           
                 }
         .menu-contacts-link {
                 display: block;
