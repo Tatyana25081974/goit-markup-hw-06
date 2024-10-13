@@ -222,8 +222,7 @@ img {
     }
         .mobile-menu-container {
             position: relative;
-            padding-top: 72px;
-            padding-bottom: 40px;
+            padding: 72px 16px 40px;
             display: flex;
             flex-direction: column;
             height: 100%;
@@ -607,7 +606,7 @@ img {
     row-gap: 64px;
     }
    .team-item {
-     max-width: calc((100% - 24px)/2);
+     width: calc((100% - 24px)/2);
 
    }
     
@@ -626,7 +625,7 @@ img {
         gap: 24px;
     }
     .team-item {
-        max-width: calc((100% - 72px)/4);
+        width: calc((100% - 72px)/4);
     }
     }
 /*====================================/Команда/=========================================*/
